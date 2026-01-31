@@ -1,0 +1,24 @@
+{
+  "name": "js-operator-overloading",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "example": "bun --preload ./examples/preload.ts ./examples/index.ts",
+    "demo": "bun --preload ./examples/preload.ts ./examples/demo.ts"
+  },
+  "author": "Twilight <hello@twlite.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__helper-plugin-utils": "^7.10.3",
+    "@types/bun": "latest",
+    "@types/node": "^25.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/helper-plugin-utils": "^7.28.6"
+  }
+}
